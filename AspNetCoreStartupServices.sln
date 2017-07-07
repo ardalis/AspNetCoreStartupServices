@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreStartupServices", "AspNetCoreStartupServices.csproj", "{A0FE7F35-D275-45FA-9EA8-9DAB07DE11AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0FE7F35-D275-45FA-9EA8-9DAB07DE11AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FE7F35-D275-45FA-9EA8-9DAB07DE11AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FE7F35-D275-45FA-9EA8-9DAB07DE11AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FE7F35-D275-45FA-9EA8-9DAB07DE11AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
