@@ -25,6 +25,8 @@ If it's working you should see output like this showing all of your services:
 ![image](https://user-images.githubusercontent.com/782127/52003616-0e497b80-2493-11e9-856c-1d4ef9207be0.png)
 
 # Reference
-Read the accompanying article here:
 
-http://ardalis.com/how-to-list-all-services-available-to-an-asp-net-core-app
+- [Original Sample Article](https://ardalis.com/how-to-list-all-services-available-to-an-asp-net-core-app)
+- [Screencast of Extracting Middleware and Publishing to Nuget.org](https://www.youtube.com/watch?v=6-WcxBLyIes)
+- [Follow ardalis on twitch.tv](https://www.twitch.tv/ardalis)
+
