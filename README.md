@@ -2,7 +2,7 @@
 
 # AspNetCoreStartupServices
 
-A diagnostic middleware nuget package for listing all services registered with Startup in an ASP.NET Core applications.
+A diagnostic middleware [nuget package](https://www.nuget.org/packages/Ardalis.ListStartupServices) for listing all services registered with Startup in an ASP.NET Core applications.
 
 # Getting Started
 
