@@ -1,0 +1,13 @@
+https://ardalis.com/nuget-publication-checklist
+
+-- from library root folder (with csproj file):
+dotnet build -c Release
+dotnet publish -c Release
+dotnet pack -c Release /p:Version=1.0.0
+
+-- from /bin/Release folder:
+dotnet nuget push -s https://www.nuget.org/api/v2/package -k <key> Ardalis.Whatever.1.0.X.nupkg
+
+git tag -a v1.0.X -m "Published 1.0.X to nuget.org"
+
+git push --follow-tags
