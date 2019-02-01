@@ -17,6 +17,13 @@
     },
     "AspNetCoreStartupServices": {
       "commandName": "Project"
+    },
+    "AspNetCoreStartupServices - DEV": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
     }
   }
 }
