@@ -10,11 +10,13 @@ namespace Ardalis.ListStartupServices
     public class ShowAllServicesMiddleware
     {
         private readonly ServiceConfig _config;
+        private readonly RequestDelegate _next;
 
         public ShowAllServicesMiddleware(RequestDelegate next, // required for DI to work
             IOptions<ServiceConfig> config)
         {
             _config = config.Value;
+            _next = next;
         }
 
         public async Task Invoke(HttpContext httpContext)
@@ -38,6 +40,7 @@ namespace Ardalis.ListStartupServices
 
                 await httpContext.Response.WriteAsync(sb.ToString());
             }
+            await _next(httpContext);
         }
     }
 
