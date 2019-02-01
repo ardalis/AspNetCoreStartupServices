@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ardalis.ListStartupServices" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ardalis.ListStartupServices\Ardalis.ListStartupServices.csproj" />
   </ItemGroup>
 
 </Project>

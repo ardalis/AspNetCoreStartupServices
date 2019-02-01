@@ -23,6 +23,7 @@ namespace WebApplication
             services.Configure<ServiceConfig>(config =>
             {
                 config.Services = new List<ServiceDescriptor>(services);
+                config.Path = "/fancytwitchservicespath";
             });
         }
 
@@ -31,6 +32,8 @@ namespace WebApplication
         {
             // TODO: support a path string parameter
             app.UseShowAllServicesMiddleware();
+
+            app.UseWelcomePage();
         }
     }
 }
