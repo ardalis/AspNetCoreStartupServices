@@ -14,11 +14,18 @@ A diagnostic middleware [nuget package](https://www.nuget.org/packages/Ardalis.L
 services.Configure<ServiceConfig>(config =>
 {
     config.Services = new List<ServiceDescriptor>(services);
+    
+    // optional - default path to view services is /listallservices - recommended to choose your own path
+    config.Path = "/mylistallservicespath";
 });
 ```
-1. Add the following to your Configure method (in an if block so it only runs in certain environments, etc.)
+1. Add the following to your Configure method (in an if block so it only runs in dev environemnt)
 ```
-app.UseShowAllServicesMiddleware();
+if (env.IsDevelopment())
+{
+    app.UseShowAllServicesMiddleware();
+    app.UseDeveloperExceptionPage();
+}
 ```
 
 If it's working you should see output like this showing all of your services:
