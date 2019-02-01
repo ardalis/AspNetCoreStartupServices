@@ -44,12 +44,8 @@ namespace Ardalis.ListStartupServices
     // Extension method used to add the middleware to the HTTP request pipeline.
     public static class ShowAllServicesMiddlewareExtensions
     {
-        public static IApplicationBuilder UseShowAllServicesMiddleware(this IApplicationBuilder builder, string path = "")
+        public static IApplicationBuilder UseShowAllServicesMiddleware(this IApplicationBuilder builder)
         {
-            if(!string.IsNullOrEmpty(path))
-            {
-
-            }
             return builder.UseMiddleware<ShowAllServicesMiddleware>();
         }
     }
