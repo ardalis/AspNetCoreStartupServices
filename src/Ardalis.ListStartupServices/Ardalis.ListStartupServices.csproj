@@ -12,8 +12,8 @@
     <Summary>Diagnostic middleware for ASP.NET Core to display all registered services.</Summary>
     <RepositoryUrl>https://github.com/ardalis/AspNetCoreStartupServices</RepositoryUrl>
     <PackageTags>asp.net core, diagnostic, services, ServiceCollection</PackageTags>
-    <PackageReleaseNotes>Initial version.</PackageReleaseNotes>
-    <Version>1.0.0</Version>
+    <PackageReleaseNotes>Added ability to specify path to respond on.</PackageReleaseNotes>
+    <Version>1.1.0</Version>
     <PackageIconUrl>https://user-images.githubusercontent.com/782127/33497760-facf6550-d69c-11e7-94e4-b3856da259a9.png</PackageIconUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <RootNamespace>Ardalis.ListStartupServices</RootNamespace>
