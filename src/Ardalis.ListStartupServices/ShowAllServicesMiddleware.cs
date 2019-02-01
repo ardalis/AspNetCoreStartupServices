@@ -40,7 +40,10 @@ namespace Ardalis.ListStartupServices
 
                 await httpContext.Response.WriteAsync(sb.ToString());
             }
-            await _next(httpContext);
+            else
+            {
+                await _next(httpContext);
+            }
         }
     }
 
