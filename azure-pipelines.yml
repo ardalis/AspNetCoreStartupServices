@@ -15,3 +15,16 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  displayName: Build UnitTests
+  inputs:
+    projects: '**/Ardalis.ListStartupServices.Tests.csproj'
+    arguments: '--configuration $(BuildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  displayName: Test
+  inputs:
+    command: test
+    projects: '**/Ardalis.ListStartupServices.Tests.csproj'
+    arguments: '--configuration $(BuildConfiguration) --no-build --no-restore'
