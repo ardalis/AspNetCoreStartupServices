@@ -1,4 +1,4 @@
-[![NuGet](https://img.shields.io/nuget/dt/Ardalis.ListStartupServices.svg)](https://www.nuget.org/packages/Ardalis.ListStartupServices)
+[![NuGet](https://img.shields.io/nuget/v/Ardalis.ListStartupServices.svg)](https://www.nuget.org/packages/Ardalis.ListStartupServices)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.ListStartupServices.svg)](https://www.nuget.org/packages/Ardalis.ListStartupServices)
 [![Build Status](https://dev.azure.com/ardalis/AspNetCoreStartupServices/_apis/build/status/ardalis.AspNetCoreStartupServices?branchName=master)](https://dev.azure.com/ardalis/AspNetCoreStartupServices/_build/latest?definitionId=4&branchName=master)
 
 # ASP.NET Core ListStartupServices Middleware Package
