@@ -18,6 +18,10 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <RootNamespace>Ardalis.ListStartupServices</RootNamespace>
   </PropertyGroup>
+   
+  <PropertyGroup>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
