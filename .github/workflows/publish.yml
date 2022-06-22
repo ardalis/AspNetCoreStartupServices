@@ -2,7 +2,7 @@ name: publish Ardalis.ListStartupServices to nuget
 on:
   push:
     branches: 
-      - master
+      - main
     paths:
       - 'src/Ardalis.ListStartupServices/**'
     
