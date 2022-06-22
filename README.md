@@ -1,6 +1,5 @@
 [![NuGet](https://img.shields.io/nuget/v/Ardalis.ListStartupServices.svg)](https://www.nuget.org/packages/Ardalis.ListStartupServices)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.ListStartupServices.svg)](https://www.nuget.org/packages/Ardalis.ListStartupServices)
-[![Build Status](https://dev.azure.com/ardalis/AspNetCoreStartupServices/_apis/build/status/ardalis.AspNetCoreStartupServices?branchName=master)](https://dev.azure.com/ardalis/AspNetCoreStartupServices/_build/latest?definitionId=4&branchName=master)
-![Test Status](https://img.shields.io/azure-devops/tests/ardalis/AspNetCoreStartupServices/4.svg)
+[![Build and Test .NET CI](https://github.com/ardalis/AspNetCoreStartupServices/actions/workflows/dotnet.yml/badge.svg)](https://github.com/ardalis/AspNetCoreStartupServices/actions/workflows/dotnet.yml)
 
 # ASP.NET Core ListStartupServices Middleware Package
 
