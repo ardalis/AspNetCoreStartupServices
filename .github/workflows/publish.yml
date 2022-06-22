@@ -1,4 +1,4 @@
-name: publish Ardalis.ListStartupServices to nuget
+name: publish Ardalis.ListStartupServices to Nuget.org
 on:
   push:
     branches: 
@@ -18,7 +18,7 @@ jobs:
         with:
           dotnet-version: 6.0.x
       
-      - name: public on version change
+      - name: Publish to Nuget.org on version change
         uses: rohith/publish-nuget@v2
         with:
          PROJECT_FILE_PATH: src/Ardalis.ListStartupServices/Ardalis.ListStartupServices.csproj # Relative to the repository root
